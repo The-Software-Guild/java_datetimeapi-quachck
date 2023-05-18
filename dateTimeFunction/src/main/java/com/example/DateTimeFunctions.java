@@ -24,7 +24,6 @@ public class DateTimeFunctions {
 		//YOUR CODE STARTS HERE
 		return LocalDate.now();
 		//YOUR CODE ENDS HERE
-
 	}
 
 	/*
@@ -35,7 +34,6 @@ public class DateTimeFunctions {
 		//YOUR CODE STARTS HERE
 		return date.plusDays(x);
 		//YOUR CODE ENDS HERE
-
 	}
 
 	/*
@@ -46,7 +44,6 @@ public class DateTimeFunctions {
 		//YOUR CODE STARTS HERE
 		return date.minusWeeks(x);
 		//YOUR CODE ENDS HERE
-
 	}
 
 	/*
@@ -63,7 +60,6 @@ public class DateTimeFunctions {
 		
 		return String.format("Year-%d:Months-%d:Days-%d", years, months, days);
 		//YOUR CODE ENDS HERE
-
 	}
 
 	public static void main(String[] args) {
